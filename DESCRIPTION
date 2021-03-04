@@ -1,0 +1,13 @@
+Package: funcreports
+Type: Package
+Title: Sample Rmarkdown Templates
+Version: 0.1.0
+Author: David Ranzolin
+Maintainer: The package maintainer <daranzolin@gmail.com>
+Description: A collection of simple, sample Rmarkdown templates 
+    for the purpose of demonstrating funcreporter capabilities.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    rmarkdown

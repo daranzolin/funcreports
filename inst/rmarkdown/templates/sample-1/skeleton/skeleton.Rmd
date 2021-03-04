@@ -1,0 +1,33 @@
+---
+title: "Sample Report 1: iris histograms"
+date: "The Date"
+params:
+  plot_title:
+    input: text
+    label: "Plot Title"
+    value: ""
+  breaks:
+    input: numeric
+    label: "Hist Breaks"
+    value: 10
+  species:
+    input: select
+    label: "Species"
+    value: any
+    choices:
+      - setosa
+      - versicolor
+      - virginica
+---
+
+
+## Example
+
+Starter template for the `funcreporter` package.
+
+```{r}
+s <- params$species
+pd <- iris[iris$Species == s,]
+hist(pd$Sepal.Length, breaks = params$breaks, main = params$plot_title)
+```
+
