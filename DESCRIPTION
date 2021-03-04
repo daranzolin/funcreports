@@ -11,3 +11,5 @@ Encoding: UTF-8
 LazyData: true
 Imports: 
     rmarkdown
+URL: https://github.com/daranzolin/funcreports
+BugReports: https://github.com/daranzolin/funcreports/issues
